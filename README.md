@@ -1,3 +1,3 @@
-# Lab Assignment 3
-Click `Code` > `Codespaces` > `Create codespace on main` to start coding!
+# Asynchronous Memory Design
 
+In this lab, I designed and implemented asynchronous-read memories in SystemVerilog to gain hands-on experience with memory modeling on FPGAs. I created a parameterized 1-read/1-write read-priority memory (ram_1r1w_async) that initializes from a hexadecimal file using $readmemh, ensuring correct handling of address collisions. I then applied this memory to develop two modules: hex2ssd, which converts 4-bit hexadecimal values to seven-segment display encodings, and sigmoid, which computes an 8-bit scaled sigmoid function with minimal root mean squared error. I handled two’s complement indexing and memory initialization to ensure accurate outputs. Finally, I demonstrated the complete system on an FPGA, using a joystick for input and the seven-segment display to visualize results, integrating both modules into a top-level design with proper port mapping.
